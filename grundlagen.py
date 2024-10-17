@@ -325,3 +325,21 @@ import string
 zeichen = string.ascii_letters + string.digits
 passwort = "".join(random.choice(zeichen) for i in range(10))
 print(passwort)
+
+import time
+
+startzeit = time.time()
+
+ergebnis = 0
+
+for i in range(1, 1000000):
+    ergebnis += i
+
+for zahl in range(1, 1000000, 1):
+    quadratzahl = zahl ** 2
+    print(quadratzahl)
+
+Endzeit = time.time()
+
+Dauer = Endzeit - startzeit
+print(f"Die Berechnung hat {Dauer:.4f} Sekunden gedauert.")
