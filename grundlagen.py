@@ -218,14 +218,14 @@ for i in range(7):
 # TODO Finde und markiere die vorhandenen Fehler im folgenden Code:
 print("Willkommen zum Altersrechner")
 
-alter_eingabe = input(
-    "Bitte gib dein Alter ein: ")  # Fehler: Eingabe ist ein String, sollte in Integer umgewandelt werden, Syntaxfehler
-if alter_eingabe > 18  # Fehler: Vergleichsoperator fehlt, Syntaxfehler
-    print("Du bist volljährig.")
-else  # Fehler: Syntaxfehler, fehlender Doppelpunkt
-    print("Du bist minderjährig.")
-if alter_eingabe = 18:  # Fehler: Zuweisung statt Vergleichsoperator, Syntaxfehler
-    print("Du bist genau 18 Jahre alt.")
+# alter_eingabe = input(
+#     "Bitte gib dein Alter ein: ")  # Fehler: Eingabe ist ein String, sollte in Integer umgewandelt werden, Syntaxfehler
+# if alter_eingabe > 18  # Fehler: Vergleichsoperator fehlt, Syntaxfehler
+#     print("Du bist volljährig.")
+# else  # Fehler: Syntaxfehler, fehlender Doppelpunkt
+#     print("Du bist minderjährig.")
+# if alter_eingabe = 18:  # Fehler: Zuweisung statt Vergleichsoperator, Syntaxfehler
+#     print("Du bist genau 18 Jahre alt.")
 
 print("Das Programm endet hier.")  # Fehler: Kein Fehler, aber unnötiger Kommentar
 
